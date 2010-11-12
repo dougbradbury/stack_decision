@@ -1,0 +1,18 @@
+The specification decisions:
+1) Stack is an object
+2) Name is “Stack”
+3) There is an operation to add an element
+4) It is called “push”
+5) It takes a parameter
+6) The type of the parameter is the same as the type of the stack
+7) Stack has a type parameter
+8) There is an operation to remove elements
+9) Its name is “pop”
+10) Its return value is the same as the type of the stack
+11) Elements are ordered LIFO
+
+Here are the implementation decisions:
+12) Store the elements in a List
+13) Type of the list is the same as the type of the stack
+14) Implementation type is ArrayList
+15) Add/remove elements at the beginning of the list
